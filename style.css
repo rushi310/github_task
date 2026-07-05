@@ -1,0 +1,136 @@
+/* ---------- Body ---------- */
+
+body {
+    background: #f5f7fa;
+    transition: 0.4s;
+    min-height: 100vh;
+}
+
+/* ---------- Card ---------- */
+
+.card {
+    border-radius: 18px;
+    transition: .4s;
+}
+
+/* ---------- Avatar ---------- */
+
+img {
+    object-fit: cover;
+}
+
+/* ---------- Links ---------- */
+
+a {
+    text-decoration: none;
+}
+
+/* ---------- Repository Buttons ---------- */
+
+#githubContainer .btn {
+    margin: 4px;
+}
+
+/* ---------- Loader ---------- */
+
+#loader {
+    min-height: 180px;
+}
+
+/* ---------- Dark Theme ---------- */
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+/* Main Card */
+
+body.dark>.container>.row>.col-lg-8>.card {
+    background: #1f1f1f;
+    color: white;
+}
+
+/* Profile Card */
+
+body.dark #card {
+    background: #2b2b2b;
+    color: white;
+}
+
+/* Input */
+
+body.dark .form-control {
+    background: #2d2d2d;
+    color: white;
+    border-color: #555;
+}
+
+body.dark .form-control::placeholder {
+    color: #bbb;
+}
+
+/* Input Focus */
+
+body.dark .form-control:focus {
+    background: #2d2d2d;
+    color: white;
+}
+
+/* Buttons */
+
+body.dark .btn-outline-primary {
+    color: #8ec5ff;
+    border-color: #8ec5ff;
+}
+
+body.dark .btn-outline-primary:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+/* Links */
+
+body.dark a {
+    color: #8ec5ff;
+}
+
+/* Horizontal Line */
+
+body.dark hr {
+    border-color: #666;
+}
+
+/* Spinner */
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    h2{
+        font-size:26px;
+    }
+
+    .input-group{
+        flex-direction:column;
+    }
+
+    .input-group input{
+        margin-bottom:10px;
+        width:100%;
+    }
+
+    .input-group button{
+        width:100%;
+    }
+
+    #themeBtn{
+        font-size:14px;
+    }
+
+}
