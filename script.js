@@ -26,7 +26,7 @@ class GithubProfileFinder {
     loadTheme() {
         if (localStorage.getItem("theme") === "dark") {
             document.body.classList.add("dark");
-            this.themeBtn.innerHTML = "☀️ Light Mode";
+            this.themeBtn.innerHTML = " Light Mode";
         }
     }
 
@@ -35,10 +35,10 @@ class GithubProfileFinder {
 
         if (document.body.classList.contains("dark")) {
             localStorage.setItem("theme", "dark");
-            this.themeBtn.innerHTML = "☀️ Light Mode";
+            this.themeBtn.innerHTML = " Light Mode";
         } else {
             localStorage.setItem("theme", "light");
-            this.themeBtn.innerHTML = "🌙 Dark Mode";
+            this.themeBtn.innerHTML = " Dark Mode";
         }
     }
 
